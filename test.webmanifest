@@ -1,0 +1,124 @@
+{
+  "name": "Boxy SVG",
+  "short_name": "Boxy SVG",
+  "description": "Scalable Vector Graphics (SVG) editor.",
+  "categories": [
+    "graphics",
+    "photo"
+  ],
+  "version": "4.52.1",
+  "debug": false,
+  "lang": "en-US",
+  "start_url": "/app",
+  "scope": "/app",
+  "display": "standalone",
+  "display_override": [
+    "tabbed",
+    "window-controls-overlay"
+  ],
+  "theme_color": "#F0F0F0",
+  "background_color": "#F0F0F0",
+  "icons": [
+    {
+      "src": "/logo.svg",
+      "sizes": "any"
+    },
+    {
+      "src": "/icons/app/1024.png",
+      "sizes": "1024x1024"
+    },
+    {
+      "src": "/icons/app/512.png",
+      "sizes": "512x512"
+    },
+    {
+      "src": "/icons/app/256.png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/icons/app/192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/icons/app/128.png",
+      "sizes": "128x128"
+    },
+    {
+      "src": "/icons/app/64.png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "/icons/app/48.png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "/icons/app/32.png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "/icons/app/24.png",
+      "sizes": "24x24"
+    },
+    {
+      "src": "/icons/app/16.png",
+      "sizes": "16x16"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/app",
+      "accept": {
+        "image/svg+xml": [
+          ".svg",
+          ".svgz"
+        ]
+      },
+      "icons": [
+        {
+          "src": "/logo.svg",
+          "sizes": "any"
+        },
+        {
+          "src": "/icons/app/1024.png",
+          "sizes": "1024x1024"
+        },
+        {
+          "src": "/icons/app/512.png",
+          "sizes": "512x512"
+        },
+        {
+          "src": "/icons/app/256.png",
+          "sizes": "256x256"
+        },
+        {
+          "src": "/icons/app/192.png",
+          "sizes": "192x192"
+        },
+        {
+          "src": "/icons/app/128.png",
+          "sizes": "128x128"
+        },
+        {
+          "src": "/icons/app/64.png",
+          "sizes": "64x64"
+        },
+        {
+          "src": "/icons/app/48.png",
+          "sizes": "48x48"
+        },
+        {
+          "src": "/icons/app/32.png",
+          "sizes": "32x32"
+        },
+        {
+          "src": "/icons/app/24.png",
+          "sizes": "24x24"
+        },
+        {
+          "src": "/icons/app/16.png",
+          "sizes": "16x16"
+        }
+      ]
+    }
+  ]
+}
